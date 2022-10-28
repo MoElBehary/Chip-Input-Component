@@ -1,0 +1,11 @@
+<tag-input 
+    (onAdd)="onAdd($event)"
+    (onRemove)="onRemove($event)"
+    [(ngModel)]='value'
+    placeholder="Type a Programming Language" 
+    secondaryPlaceholder="Type a Programming Language">
+    <tag-input-dropdown 
+        [showDropdownIfEmpty]="true" 
+        [autocompleteItems]="autocompleteItems">
+    </tag-input-dropdown>
+</tag-input>

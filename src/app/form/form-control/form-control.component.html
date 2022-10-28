@@ -1,0 +1,10 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <app-chip-input formControlName="chip" [autocompleteItems]=programmingLanguages></app-chip-input>
+    <br>
+    <div>
+        <button type="submit">submit</button>
+    </div>
+</form>
+<ng-container *ngIf="selectedItems.length > 0">
+    <app-form-output [selectedItems]="selectedItems"></app-form-output>
+</ng-container>

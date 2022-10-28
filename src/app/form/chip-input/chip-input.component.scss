@@ -1,0 +1,20 @@
+::ng-deep tag{
+    border-radius: 3px !important;
+    padding: 4px 16px !important;
+}
+::ng-deep .ng2-tag-input{
+    border: 1px solid rgb(167, 164, 164) !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    border-radius: 4px !important;
+}
+::ng-deep tag-input-form{
+    flex-grow: 1 !important;
+}
+::ng-deep .ng2-tag-input__text-input{
+    width: 100% !important;
+}
+::ng-deep .ng2-dropdown-menu {
+    width: 100% !important;
+    left: 0 !important;
+}
